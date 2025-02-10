@@ -1,9 +1,9 @@
 # Sales Report Generator
 
-A simple and responsive **Sales Report Generator** built with **HTML, CSS, JavaScript, and JSON**. This project dynamically loads sales data from a JSON file and displays it in a table format.
+A simple and responsive **Sales Report Generator** built with **HTML, CSS, JavaScript, and JSON**. This project dynamically loads sales data and displays it in a table format.
 
 ## 🚀 Live Demo
-[Live Demo](https://sales-report-generator.netlify.app/)
+[Live Project](https://sales-report-generator.netlify.app/)
 
 ## 🛠 Features
 - Fetch sales data from `data.json`.
@@ -16,23 +16,19 @@ A simple and responsive **Sales Report Generator** built with **HTML, CSS, JavaS
 ```
 sales-report-generator/
 ├── public
-│   ├── data.json
-│
-├── src
-│   ├── components
-│   │   ├── ReportTable.js
-│   ├── script.js
-│   ├── styles.css
+│   ├── favicon.ico
 │
 ├── index.html
-├── package.json
+├── data.json
+├── script.js
+├── styles.css
 ├── README.md
 ```
 
 ## 🏗 Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/sales-report-generator.git
+   git clone https://github.com/amanxsyed/JS-CLI-Mini-Projects.git
    ```
 2. Navigate to the project directory:
    ```sh
