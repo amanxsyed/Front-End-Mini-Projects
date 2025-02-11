@@ -4,12 +4,3 @@ body{
     margin: 0;
     padding: 0;
 }
-#main{
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    border: 1px solid black;
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
