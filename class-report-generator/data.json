@@ -1,0 +1,103 @@
+[
+    {
+      "name": "Syed Aman Shah",
+      "roll_no": "101",
+      "subjects": {
+        "Math": 85,
+        "English": 78,
+        "Science": 92,
+        "Computer": 100
+      }
+    },
+    {
+      "name": "Ayesha Ahmed",
+      "roll_no": "102",
+      "subjects": {
+        "Math": 90,
+        "English": 88,
+        "Science": 95,
+        "Computer": 91
+      }
+    },
+    {
+      "name": "Bilal Hussain",
+      "roll_no": "103",
+      "subjects": {
+        "Math": 72,
+        "English": 65,
+        "Science": 80,
+        "Computer": 78
+      }
+    },
+    {
+      "name": "Fatima Tariq",
+      "roll_no": "104",
+      "subjects": {
+        "Math": 95,
+        "English": 92,
+        "Science": 97,
+        "Computer": 93
+      }
+    },
+    {
+      "name": "Hassan Ali",
+      "roll_no": "105",
+      "subjects": {
+        "Math": 60,
+        "English": 55,
+        "Science": 70,
+        "Computer": 65
+      }
+    },
+    {
+      "name": "Sara Noor",
+      "roll_no": "106",
+      "subjects": {
+        "Math": 88,
+        "English": 85,
+        "Science": 90,
+        "Computer": 86
+      }
+    },
+    {
+      "name": "Omar Farooq",
+      "roll_no": "107",
+      "subjects": {
+        "Math": 78,
+        "English": 80,
+        "Science": 76,
+        "Computer": 79
+      }
+    },
+    {
+      "name": "Zainab Raza",
+      "roll_no": "108",
+      "subjects": {
+        "Math": 92,
+        "English": 89,
+        "Science": 94,
+        "Computer": 90
+      }
+    },
+    {
+      "name": "Imran Sheikh",
+      "roll_no": "109",
+      "subjects": {
+        "Math": 67,
+        "English": 60,
+        "Science": 72,
+        "Computer": 69
+      }
+    },
+    {
+      "name": "Nida Hussain",
+      "roll_no": "110",
+      "subjects": {
+        "Math": 85,
+        "English": 82,
+        "Science": 87,
+        "Computer": 84
+      }
+    }
+  ]
+  
