@@ -4,6 +4,9 @@ A simple, responsive web-based resume built with **HTML & CSS**.
 ## 🚀 Live Demo
 [View the Live Project](https://syed-resume.netlify.app/)
 
+## Project URL 
+[Roadmap.sh Project](https://roadmap.sh/projects/single-page-cv)
+
 ## 🛠 Features
 - Clean and professional design  
 - Mobile-responsive layout  
