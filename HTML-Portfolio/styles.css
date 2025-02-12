@@ -97,14 +97,15 @@ footer{
 }
 .projects {
     border: 1px solid black;
+    padding: 15px;
     
 }
-.projects h2{
+/* .projects h2{
     padding-left:15px ;
-}
+} */
 .projects ul {
     list-style-type: none;
-    padding: 15px;
+    padding-top: 15px;
 }
 
 .projects li {
@@ -113,5 +114,21 @@ footer{
 }
 .project-link{
     text-decoration: none;
-    color: rgb(86, 155, 235);
+    /* color: rgb(86, 155, 235); */
+    color: blue;
+}
+/* WORK EXPERIENCE & EDUCATION */
+.work-experience,
+.education {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.work-experience a,
+.education a {
+    color: blue;
+    text-decoration: underline;
+}
+.work-card{
+    padding-top: 15px;
 }
