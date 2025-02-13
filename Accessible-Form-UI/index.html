@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./public/favicon.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="form-container">
+        <!-- <div class="border-line"></div> -->
+        <div class="progress-circle">
+            <span id="progress-text">0%</span>
+
+        </div>
+        <div class="profile-completeness">
+            <h4>Profile Completeness</h4>
+            <div>
+            <span id="name-status complete-box">Name<span class="cross">✖</span></span>
+            <span id="roadmap-status complete-box">Email<span class="cross">✖</span></span>
+            <span id="public-profile-status commplete-box">Password<span class="cross">✖</span></span>
+            <span id="project-status compplete-box">Password Confirmed!<span class="cross">✖</span></span>
+            </div>
+
+        </div>
+
+        <form>
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fname" placeholder="What should we call you?" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Where can we reach you?" required>
+            <span class="error" id="email-error">Email is already taken</span>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required >
+
+            <button type="button" id="update-profile" >Update Profile</button>
+
+            
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
