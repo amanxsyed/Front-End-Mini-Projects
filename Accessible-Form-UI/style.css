@@ -13,6 +13,18 @@ body {
   /* height: 100vh; */
 }
 .form-container {
+  display: flex;
+  width: 550px;
+  height: auto;
+  background-color: #f5f5f5;
+  margin: 80px auto;
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(245, 245, 245, 0.6);
+  padding: 20px 0;
+  flex-direction: row-reverse;
+}
+/* .form-container {
   width: 550px;
   height: 500px;
   background-color: #f5f5f5;
@@ -21,28 +33,30 @@ body {
   overflow: hidden;
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(245, 245, 245, 0.6);
-  display: flex;
-  flex-direction: column;
-  /* display: flex; */
 
-  /* display: flex;
-    justify-content: center; */
-  /* border-radius: 20px; */
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+} */
+
 form {
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
-  justify-content: center;
-  margin-top: 50px;
+  /* padding-left: 30px; */
+  justify-content:flex-start;
+  margin-right: 30px;
+  /* margin-top: 50px; */
+  /* border: 1px solid green; */
+  width: 50%;
 }
-.progress-circle {
+/* .progress-circle {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   border: 8px solid lightgray;
   position: absolute;
-  /* top: 10px; */
   right: 120px;
   margin-top: 80px;
   display: flex;
@@ -50,7 +64,60 @@ form {
   align-items: center;
   font-size: 18px;
   font-weight: bold;
+} */
+.in-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40%;
 }
+.progress-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 8px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.profile-completeness {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  padding: 15px;
+  /* background-color: rgb(222, 220, 220); */
+  border-radius: 10px;
+  text-align: left;
+  margin-top: -20px;
+  
+}
+
+.profile-completeness div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(222, 220, 220);
+  border-radius: 10px;
+  color: rgb(158, 156, 156);
+  gap: 5px;
+  margin-left: -10px;
+}
+
+.profile-completeness h4 {
+  margin-left: 10px;
+  color: black;
+  margin-left: 0px;
+}
+
 label {
   margin-top: 10px;
 }
@@ -60,7 +127,7 @@ input {
   margin-top: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 42%;
+  width: 84%;
 }
 button {
   background-color: black;
@@ -75,38 +142,18 @@ button {
   font-size: 12px;
   display: none;
 }
-.profile-completeness{
+/* .profile-completeness{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   margin-top: 170px;
   width: 200px;
   position: absolute;
   right: 55px;
-  /* border: 1px solid green; */
-}
+  border: 1px solid green;
+} */
 
-.profile-completeness div{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  align-items:flex-start;
-  padding: 15px;
-  padding-left: 10px;
-  /* border: 1px solid rgb(218, 78, 78); */
-  background-color: rgb(222, 220, 220);
-  border-radius: 10px;
 
-  position: absolute;
-  /* right: 25px; */
-  margin-top: 65px;
-  right:40px;
-  color: rgb(158, 156, 156) ;
-  gap: 3px;
-}
-.profile-completeness h4{
-  margin-left: 5px;
-}
 
 #update-profile{
   /* display: flex;
@@ -121,7 +168,7 @@ button {
   background-color: black;
   color: white;
   padding: 10px;
-  width: 45%;
+  width: 90%;
   margin-top: 20px;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   /* border: none; */
@@ -132,8 +179,27 @@ button {
 .tick{
   color: green;
 }
-/* .password-container{
+.password-container {
+  position: relative;
+  width: 84%;
+}
+
+.password-container input {
+  width: 100%;
+  /* padding-right: 30px; Space for the toggle icon */
+}
+
+.toggle-password {
   position: absolute;
-} */
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  /* display: flex;
+  justify-self: center;
+  align-items: center; */
+}
+
+
 
 
