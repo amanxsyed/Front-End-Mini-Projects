@@ -111,10 +111,10 @@ button {
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 .cross{
-  color: red;
+  color: red !important;
 }
 .tick{
-  color: green;
+  color: green !important;
 }
 .password-container {
   position: relative;
@@ -131,6 +131,24 @@ button {
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
+}
+.complete-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.complete-box span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cross {
+  color: red !important;
+  font-size: 18px;
+  margin-left: 10px; /* Adjust space between name and "X" */
 }
 
 
