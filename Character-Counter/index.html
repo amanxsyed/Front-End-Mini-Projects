@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./public/images/favicon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- wrap entire page content in a div with class "page-wrapper" -->
+    <div class="page-wrapper">
+      <!-- header section with logo and theme toggle button -->
+      <div class="header-section">
+        <!-- app logo -->
+        <img
+          src="./public/images/logo-dark-theme.svg"
+          alt="app-logo"
+          id="app-logo"
+        />
+        <!-- theme toggle icon -->
+        <img
+          src="./public/images/icon-sun.svg"
+          alt="theme-toggle"
+          id="theme-toggle"
+          style="cursor: pointer"
+        />
+      </div>
+
+      <main>
+        <!-- Hero Title -->
+        <h1 id="hero-title">Analyze your text in real time</h1>
+
+        <section id="input-section">
+          <!-- Text area for user input -->
+          <textarea
+            id="input-area-section"
+            placeholder="Start typing here… (or paste your text)"
+          ></textarea>
+
+          <p id="limit-reached-error">
+            Limit reached! Your text exceeds
+            <span id="error-word-count"></span> characters.
+
+          </p>
+
+        </section>
+
+      </main>
+    </div>
+  </body>
+</html>
