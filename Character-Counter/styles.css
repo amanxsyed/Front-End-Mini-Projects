@@ -1,3 +1,4 @@
+
 :root {
   --primary-background-color: #ffffff;
   --primary-text-color: #12131a;
@@ -13,20 +14,24 @@
   --primary-input-background-color: #2a2b37;
 }
 
+
 @font-face {
   font-family: DMSans;
   src: url("./public/fonts/DM_Sans/static/DMSans-Regular.ttf");
 }
+
 @font-face {
   font-family: DMSans;
   font-weight: 500;
   src: url("./public/fonts/DM_Sans/static/DMSans-SemiBold.ttf");
 }
+
 @font-face {
   font-family: DMSans;
   font-weight: 700;
   src: url("./public/fonts/DM_Sans/static/DMSans-Bold.ttf");
 }
+
 
 * {
   margin: 0;
@@ -35,52 +40,193 @@
   font-family: DMSans;
 }
 
+
 body {
   background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
 }
-
-/* #app-logo {
-    src: "./public/images/logo-dark-theme.svg";
-} */
 
 .page-wrapper {
   padding: 1rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
 .header-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-bottom: 2rem;    */
+  margin-bottom: 3rem;
 }
+
+#app-logo {
+  transition: 0.3s;
+}
+
+#theme-toggle {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: 0.3s;
+}
+
+
 #hero-title {
-  font-size: 3rem;
+  font-size: 45px;
   font-weight: 800;
   color: var(--primary-text-color);
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
-#input-area-section {
+
+#input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#textbox {
   border-radius: 1rem;
   font-size: 1.25rem;
   background-color: var(--primary-input-background-color);
   color: var(--primary-text-color);
-  border: 1px solid #d1d5db;
-  width: 100%;
+  border: 1px solid var(--accent-color);
+  width: 80%;
   padding: 1.5rem;
   outline: none;
-  margin-top: 0.5rem;
-  height: 200px;
-  margin-bottom: 2rem;
-  transition: all 0.3s ease;
-  
-}
-#input-area-section:focus {
-  box-shadow: 0 0 0 1px rgba(128, 0, 128, 0.5); 
-  border-color: var(--accent-color); 
+  margin: 0.5rem 0 1rem;
+  height: 190px;
+  transition: all 0.5s ease;
 }
 
-/* .dark #input-area-section {
-  background-color: var(--primary-input-background-color); 
-  border-color: var(--accent-color); 
-} */
+#textbox:focus {
+  box-shadow: 0 0 10px 3px #d3a0fa;
+  border-color: var(--accent-color);
+}
+
+
+.counter-wrapper {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: var(--primary-text-color);
+  gap: 2.5rem;
+  margin-top: 10px;
+}
+
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--primary-text-color);
+}
+
+.footer-name a{
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-left: 8px;
+  text-decoration: underline;
+}
+
+footer p {
+  font-weight: 600;
+}
+/* ------------------------- */
+/*      Responsive Styles     */
+/* ------------------------- */
+@media (max-width: 768px) {
+  .page-wrapper {
+    padding: 1.5rem 1rem;
+  }
+
+  #hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  #textbox {
+    height: 150px;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .counter-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+  }
+
+  #app-logo {
+    height: 32px;
+  }
+
+  #theme-toggle {
+    width: 28px;
+    height: 28px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-wrapper {
+    padding: 1rem;
+  }
+
+  .header-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #app-logo {
+    width: 50%;
+  }
+
+  #theme-toggle {
+    width: 24px;
+    height: 24px;
+  }
+
+  #hero-title {
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+  }
+
+  /* #input-section {
+    width: 100%;
+  } */
+
+  #textbox {
+    font-size: 1rem;
+    height: 180px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    
+  }
+
+  .counter-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  footer {
+    /* position: fixed; */
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
