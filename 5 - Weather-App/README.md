@@ -49,6 +49,6 @@ We welcome feedback and suggestions for improving the Weather App. Please feel f
 This project is licensed under the [MIT License](<https://opensource.org/license/mit>).
 
 **Contact Us:**
-If you have any questions or inquiries, you can reach out to us via email at [umarabdullah.work@gmail.com](mailto:umarabdullah.work@gmail.com).
+If you have any questions or inquiries, you can reach out to us via email at [amanxsyed@gmail.com](mailto:amanxsyed@gmail.com).
 
 **Thank you for using the Weather App!**

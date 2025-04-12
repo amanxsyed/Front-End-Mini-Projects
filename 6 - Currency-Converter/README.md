@@ -87,6 +87,6 @@ This project is licensed under the MIT License.
 
 ## Contact
 For any queries or feedback, please contact:
-- **Email:** [umarabdullah.work@gmail.com](mailto:umarabdullah.work@gmail.com) 
+- **Email:** [amanxsyed@gmail.com](mailto:amanxsyed@gmail.com) 
 
 ---
