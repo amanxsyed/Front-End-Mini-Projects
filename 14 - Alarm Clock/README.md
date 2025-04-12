@@ -3,7 +3,7 @@
 This is a simple and interactive Alarm Clock app built using HTML, CSS, and JavaScript. It lets users set alarms that play an audio notification at the selected time. Designed to be responsive and beginner-friendly, this project is a fun way to practice time-based logic in JavaScript.
 
 ## Live Demo
-[Live Link]()
+[Live Link](https://alarm-clock-abx.netlify.app/)
 
 ## Features
 - **Set Alarm**: Users can choose a time from dropdowns to set an alarm.
