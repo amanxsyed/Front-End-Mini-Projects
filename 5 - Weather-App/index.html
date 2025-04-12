@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App | Check Your Location Current Weather</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Boxicons CSS Library -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><i class="bx bx-left-arrow-alt"></i> Weather App</header>
+
+      <section class="input-part">
+        <p class="info-txt err"></p>
+        <input
+          type="text"
+          placeholder="Enter city name"
+          spellcheck="false"
+          required
+        />
+        <div class="separator"></div>
+        <button>Get Device Location</button>
+      </section>
+
+      <section class="weather-part">
+        <img src="#" alt="" />
+        <div class="temp">
+          <span class="numb"> </span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather"></div>
+        <div class="location">
+          <i class="bx bx-map"></i>
+          <span> </span>
+        </div>
+
+        <div class="bottom-details">
+          <div class="column feels">
+            <i class="bx bxs-thermometer"></i>
+
+            <div class="details">
+              <div class="temp">
+                <span class="numb numb-2"> </span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+
+          <div class="column humidity">
+            <i class="bx bxs-droplet-half"></i>
+            <div class="details">
+              <span class="numb"></span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="developer-card" class="card hidden">
+      <div class="progress-bar"></div>
+      <h2>Meet Our Developers</h2>
+      <div id="developer-1" class="developer">
+        <img id="developer-1-photo" alt="amanxsyed" class="developer-photo" />
+        <a id="developer-1-link" target="_blank">Syed Aman Shah</a>
+      </div>
+      <div id="developer-2" class="developer">
+        <img
+          id="developer-2-photo"
+          alt="umarabdullah-991"
+          class="developer-photo"
+        />
+        <a id="developer-2-link" target="_blank">Umar Abdullah</a>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
