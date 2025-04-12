@@ -4,6 +4,9 @@
 
 The Language Converter project is a web application that allows users to translate text from one language to another using the MyMemory Translation API. It supports multiple languages and provides features like text-to-speech, copying translated text, and language selection.
 
+## Live Link
+[Language-Translator-Live](https://language-converter-translator.netlify.app/)
+
 ### Features
 
 - **Translation**: Users can enter text in one language and get the translation in another language.
