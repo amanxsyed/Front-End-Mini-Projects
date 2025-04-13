@@ -19,14 +19,14 @@ This is a simple and interactive Alarm Clock app built using HTML, CSS, and Java
 
 ## File Structure
 ```
-Accessible-Form-UI/
+14 - Alarm-Clock/
 ├── public
 │   ├── clock.svg  
 │   ├── ringtone.mp3 
 │   ├── favicon.svg 
 ├── index.html       # Main HTML file
 ├── style.css        # CSS for styling
-├── script.js        # JavaScript for form validation & interactions
+├── app.js        # JavaScript for form validation & interactions
 ├── README.md        # Documentation file
 ```
 

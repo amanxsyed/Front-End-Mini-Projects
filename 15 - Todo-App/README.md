@@ -3,7 +3,7 @@
 A simple and interactive To-Do list application built with HTML, CSS, and JavaScript. This app allows users to add, delete, and mark tasks as completed, helping you stay organized. It's a great beginner project for practicing DOM manipulation and JavaScript event handling.
 
 ## Live Demo
-[Live Link]()
+[Live Link](https://todo-app-abx.netlify.app/)
 
 ## Features
 - **Add Tasks**: Easily add tasks to your to-do list.
@@ -23,7 +23,7 @@ A simple and interactive To-Do list application built with HTML, CSS, and JavaSc
 ├── public
 │   ├── favicon.svg 
 ├── index.html       # Main HTML file
-├── style.css        # CSS for styling
+├── styles.css        # CSS for styling
 ├── app.js           # JavaScript for form validation & interactions
 ├── README.md        # Documentation file
 ```
