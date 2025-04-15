@@ -3,7 +3,7 @@
 A simple and powerful random password generator built using HTML, CSS, and JavaScript. This tool allows users to generate secure, customizable passwords with options like length selection and inclusion of uppercase, lowercase, numbers, and special characters.
 
 ## Live Demo
-[Live Link]()
+[Live Link](https://random-password-generator-abx.netlify.app/)
 
 ## Features
 - **Custom Password Length**: Choose the desired password length.
