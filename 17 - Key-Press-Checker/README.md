@@ -3,7 +3,7 @@
 A basic and interactive web app that detects and displays the key you press on your keyboard using HTML, CSS, and JavaScript. This is a great beginner project to understand keyboard events in JavaScript.
 
 ## Live Demo
-[Live Link]()
+[Live Link](https://key-press-checker.netlify.app/)
 
 ## Features
 - **Key Detection**: Displays the key pressed, its key code, and the event code.
